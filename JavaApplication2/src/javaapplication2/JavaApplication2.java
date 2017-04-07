@@ -16,7 +16,7 @@ public class JavaApplication2 {
         for(int i = 2; i < jum; i++){
             arr[i] = arr[i-1]+arr[i-2];
         }
-        for(int i = 0; i < jum; i++){
+        for(int i =jum-1; i >= 0; i--){
             System.out.print(arr[i] + " ");
         }
     }
